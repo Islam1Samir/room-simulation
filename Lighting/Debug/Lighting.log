@@ -1,0 +1,16 @@
+﻿  Renderer.cpp
+h:\lighting_33\middleware\includes\gl\glu.h(47): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\gl\glfw3.h(98): note: see previous definition of 'APIENTRY'
+h:\lighting_33\lighting\renderer\renderer.cpp(164): warning C4305: '+=': truncation from 'double' to 'float'
+h:\lighting_33\lighting\renderer\renderer.cpp(170): warning C4305: '-=': truncation from 'double' to 'float'
+h:\lighting_33\lighting\renderer\renderer.cpp(197): warning C4305: 'argument': truncation from 'double' to 'float'
+h:\lighting_33\lighting\renderer\renderer.cpp(203): warning C4305: 'argument': truncation from 'double' to 'float'
+h:\lighting_33\lighting\renderer\renderer.cpp(209): warning C4305: 'argument': truncation from 'double' to 'float'
+h:\lighting_33\lighting\renderer\renderer.cpp(215): warning C4305: 'argument': truncation from 'double' to 'float'
+h:\lighting_33\lighting\renderer\renderer.cpp(283): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+h:\lighting_33\lighting\renderer\renderer.cpp(284): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+stb_image.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Lighting.vcxproj -> H:\Lighting_33\Debug\Lighting.exe
+  Lighting.vcxproj -> H:\Lighting_33\Debug\Lighting.pdb (Full PDB)

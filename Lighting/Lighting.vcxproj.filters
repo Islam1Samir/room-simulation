@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Application Manager">
+      <UniqueIdentifier>{0fccbda0-7eb0-4be9-b950-89bf82f21059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{b3629e3f-7183-4501-ab04-2812ba0ddad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{24d5c320-092e-494b-98dc-29e3d0a9e77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler Camera">
+      <UniqueIdentifier>{3e63fb8e-5ea5-46e7-989a-720d112ca02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ffdc3379-c388-4695-bf51-9dc0de42ceff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cube">
+      <UniqueIdentifier>{f1b3003d-903d-4959-b6ca-7d1bf2f5d1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{57370cef-28ab-4a4a-85db-ab8c5790223b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Table">
+      <UniqueIdentifier>{e4dcaf35-f4ec-4b42-9aa3-448279eb2bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="try">
+      <UniqueIdentifier>{3d2f21ef-8eaf-4a86-b6ba-1d8bb08b0c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{3aff732d-c295-4d0c-a433-151172532456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Texture Loader">
+      <UniqueIdentifier>{9ddbaef8-8cea-4314-b783-300e74b3b3cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="EulerCamera\EulerCamera.cpp">
+      <Filter>Euler Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Application Manager\ApplicationManager.cpp">
+      <Filter>Application Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube\Cube.cpp">
+      <Filter>Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Tr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\algo\Project Template 3.3\Graphics L1\stb_image.c">
+      <Filter>Texture\Texture Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedModel.cpp">
+      <Filter>try</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>try</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>try</Filter>
+    </ClCompile>
+    <ClCompile Include="Model3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MultiColor.fragmentshader">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SimpleTransformWithColor.vertexshader">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\shader.hpp">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerCamera\EulerCamera.h">
+      <Filter>Euler Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Application Manager\ApplicationManager.h">
+      <Filter>Application Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube\Cube.h">
+      <Filter>Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Tr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Texture\Texture Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedModel.h">
+      <Filter>try</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>try</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNode.h">
+      <Filter>try</Filter>
+    </ClInclude>
+    <ClInclude Include="Model3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lighting.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
